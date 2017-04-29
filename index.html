@@ -5,36 +5,51 @@
         <meta charset="utf-8"/>
         <meta name="keywords" content="alexandre,sette,portfolio,desenvolvimento,software,programador"/>
         <meta name="description" content="Site feito em sala de aula, Criado por Alison F. e Atualizado por Alexandre Sette"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="app.css" />
+        <link rel="stylesheet" data-css="app2" href="app.css" />
+        <link rel="stylesheet" href="vendor/jquery-ui-1.12.1.custom/jqueyr-ui.css" />
     </head>
     <body>
+      <nav>
+          <ul class="a11y__menu">
+              <li><a class="a11y__menu--item" href="#conteudo" aria-label="Navegar ate o conteudo da pagina.">Ir ao conteudo</a></li>
+              <li><a class="a11y__menu--item" href="#menu">Ir ao menu</a></li>
+              <li><a class="a11y__menu--item" id="btnContraste" href="#">Contraste</a></li>
+              <li><a class="a11y__menu--item" id="btnFonteMais" href="#">Fonte A+</a></li>
+              <li><a class="a11y__menu--item" id="btnFonteMenos" href="#">Fonte A-</a></li>
+          </ul>
+      </nav>
         <div class="container">
             <header class="main__header">
-                <h1 class="main__header__titulo">BANCO DO BRASIL :)</h1>
+                <h1 id="titulo" tabindex="0" class="main__header__titulo">BANCO DO BRASIL :)</h1>
                 <nav>
-                    <ul class="main__header__ul">
+                    <ul id="menuHeader" class="main__header__ul">
                         <li><a class="main__header__nav__link" href="#">menu1</a></li>
                         <li><a class="main__header__nav__link" href="#">menu2</a></li>
-                        <li><a class="main__header__nav__link" href="#">menu3</a></li>
+                        <li><a class="main__header__nav__link js-bounce" href="#">menu3</a></li>
                     </ul>
                 </nav>
             </header>
             <main class="main__content">
                 <aside class="main__content__aside__Menu">
-                    <nav>
+                    <nav id="menu">
                         <ul>
                             <li><a class="main__content__aside__Menu--link" href="#">menu1</a></li>
-                            <li><a class="main__content__aside__Menu--link" href="#">menu2</a></li>
+                            <li><a class="main__content__aside__Menu--link" href="#">TROCA TITULO</a></li>
                             <li><a class="main__content__aside__Menu--link" href="contato.html">Contato</a></li>
                         </ul>
                     </nav>
                 </aside>
-                <section class="main__content__section">
+                <section id="conteudo" class="main__content__section">
                     <article>
                         <img class="img__responsive" alt="logo do banco do brasil" title="logo do banco do brasil" src="img/BB.jpg"/>
-                        <a href="#">
-                            <p>Imagem do banco do brasil</p>
-                        </a>
+                            <p class="js-texto">Alison Pastor
+                            <span class="readmore">
+                                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+                            </span>
+                            <a href="#">Leia mais</a>
+                            </p>
                     </article>
                 </section>
             </main>
@@ -42,5 +57,9 @@
                 <address>footer da página</address>
             </footer>
         </div>
+        <script type="text/javascript" src="vendor/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="vendor/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/actions.jquery.js"></script>
+        <!-- <script type="text/javascript" src="js/app.js"></script> -->
     </body>
 </html>

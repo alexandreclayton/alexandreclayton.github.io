@@ -1,6 +1,16 @@
 /*
 * MENU ASIDE
 */
+/* especificação */
+.classesPai .classeFilho {}
+
+/* agrupmento */
+.classesPai, .classeFilho {}
+
+/* só que as que tem as duas classes no mesmo elemento */
+.classesPai.classeFilho {}
+
+
 .main__content__aside__Menu {
     float: left;
     width: 20%;
@@ -10,6 +20,7 @@
 .main__content__aside__Menu--link {
     display: block;
     padding: 1%;
+    font-size: 1.4em;
 }
 
 .main__content__aside__Menu--link:hover {

@@ -1,13 +1,13 @@
 /*
-* MAIN 
+* MAIN
 */
 .main__content {
-    clear: both;    
+    clear: both;
 }
 
 .main__content__section{
     float: right;
     width: 78%;
     padding: 1%;
-    background-color: #e97a24;
+    background-color: #F1F1F1;
 }

@@ -1,0 +1,8 @@
+.a11y__menu{
+  display: flex;
+  justify-content: space-around;
+}
+.contraste *{
+  background-color: black;
+  color: white;
+}
