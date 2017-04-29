@@ -1,0 +1,14 @@
+a {
+    transition: all 0.4s ease;
+}
+.container {
+    background: #eee;
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    background-color: white;
+}
+.img__responsive {
+    width: 100%;
+}

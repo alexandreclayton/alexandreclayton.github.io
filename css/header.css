@@ -1,0 +1,35 @@
+/*
+* HEADER 
+*/
+.main__header{
+    background-color: #CCC;
+}
+
+.main__header__titulo{
+    padding: 40px 40px;
+    text-align: center;
+}
+
+.main__header__ul {
+    background-color: #F1F1F1;
+    border-bottom: 1px solid red;
+    display: block;
+    margin-top: 30px;
+    float: none;
+    overflow: auto;
+    clear: both;
+}
+
+.main__header__ul li {
+    float: left;
+}
+
+.main__header__nav__link {
+    display: block;
+    padding: 10px 20px;
+}
+
+.main__header__nav__link:hover {
+    background: blue;
+    color: white;
+}

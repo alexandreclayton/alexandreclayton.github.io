@@ -1,0 +1,31 @@
+/*
+* MENU ASIDE
+*/
+.main__content__aside__Menu {
+    float: left;
+    width: 20%;
+    background-color:#ace46b;
+}
+
+.main__content__aside__Menu--link {
+    display: block;
+    padding: 1%;
+}
+
+.main__content__aside__Menu--link:hover {
+    display: block;
+    background-color: aliceblue;
+}
+
+.main__content__aside__Menu ul {
+    border: 1px solid red;
+    border-top: 0;
+}
+
+.main__content__aside__Menu li{
+    border-bottom: 1px solid red;
+}
+
+.main__content__aside__Menu li:last-child{
+    border-bottom: 0;
+}
